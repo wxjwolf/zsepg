@@ -24,3 +24,14 @@ jobs:
     - name: writexml
       run: |
         python3 ./aa.py
+    - name: Commit
+      run: |
+        git config --global user.email wxjwolf@gmail.com
+        git config --global user.name wxjwolf
+        git add .
+        git commit -m"action:`date`"
+        git pull --rebase
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
