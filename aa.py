@@ -39,7 +39,7 @@ def autoWork():
         sub1=child.find('./display-name')
         sub1.text=get_tname(pname)
         print("处理 【 "+ sub1.text + " 】")
-        if pgroup=="weishi":
+        if pgroup=="weishi1":
             sub_appendnode(root,tvsou.get_program(pname,pid),pid)
         elif pgroup=="yangshi":
             sub_appendnode(root,cctv.get_program(pname,pid),pid)
