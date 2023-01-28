@@ -28,9 +28,10 @@ jobs:
       run: |
         git config --global user.email wxjwolf@gmail.com
         git config --global user.name wxjwolf
-        git add .
-        git commit -m"action:`date`"
-        git pull --rebase
+        git add zs.xml
+        git commit -m "舟山电信itv"
+        #git pull --rebase
+        git push -u origin "master"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
