@@ -1,0 +1,128 @@
+<tv generator-info-name="" generator-info-url="">
+<channel id="27" group="weishi">
+<display-name lang="zh">湖南卫视</display-name>
+</channel>
+<channel id="29" group="weishi">
+<display-name lang="zh">江苏卫视</display-name>
+</channel>
+<channel id="30" group="weishi">
+<display-name lang="zh">北京卫视</display-name>
+</channel>
+<channel id="31" group="weishi">
+<display-name lang="zh">东方卫视</display-name>
+</channel>
+<channel id="32" group="weishi">
+<display-name lang="zh">安徽卫视</display-name>
+</channel>
+<channel id="33" group="weishi">
+<display-name lang="zh">广东卫视</display-name>
+</channel>
+<channel id="34" group="weishi">
+<display-name lang="zh">深圳卫视</display-name>
+</channel>
+<channel id="36" group="weishi">
+<display-name lang="zh">辽宁卫视</display-name>
+</channel>
+<channel id="38" group="weishi">
+<display-name lang="zh">山东卫视</display-name>
+</channel>
+<channel id="39" group="weishi">
+<display-name lang="zh">天津卫视</display-name>
+</channel>
+<channel id="40" group="weishi">
+<display-name lang="zh">重庆卫视</display-name>
+</channel>
+<channel id="41" group="weishi">
+<display-name lang="zh">东南卫视</display-name>
+</channel>
+<channel id="42" group="weishi">
+<display-name lang="zh">贵州卫视</display-name>
+</channel>
+<channel id="45" group="weishi">
+<display-name lang="zh">河北卫视</display-name>
+</channel>
+<channel id="46" group="weishi">
+<display-name lang="zh">黑龙江卫视</display-name>
+</channel>
+<channel id="47" group="weishi">
+<display-name lang="zh">河南卫视</display-name>
+</channel>
+<channel id="48" group="weishi">
+<display-name lang="zh">湖北卫视</display-name>
+</channel>
+<channel id="50" group="weishi">
+<display-name lang="zh">江西卫视</display-name>
+</channel>
+<channel id="56" group="weishi">
+<display-name lang="zh">四川卫视</display-name>
+</channel>
+<channel id="1" group="yangshi">
+<display-name lang="zh">CCTV1</display-name>
+</channel>
+<channel id="2" group="yangshi">
+<display-name lang="zh">CCTV2</display-name>
+</channel>
+<channel id="3" group="yangshi">
+<display-name lang="zh">CCTV3</display-name>
+</channel>
+<channel id="4" group="yangshi">
+<display-name lang="zh">CCTV4</display-name>
+</channel>
+<channel id="5" group="yangshi">
+<display-name lang="zh">CCTV5</display-name>
+</channel>
+<channel id="6" group="yangshi">
+<display-name lang="zh">CCTV5plus</display-name>
+</channel>
+<channel id="7" group="yangshi">
+<display-name lang="zh">CCTV6</display-name>
+</channel>
+<channel id="8" group="yangshi">
+<display-name lang="zh">CCTV7</display-name>
+</channel>
+<channel id="9" group="yangshi">
+<display-name lang="zh">CCTV8</display-name>
+</channel>
+<channel id="10" group="yangshi">
+<display-name lang="zh">CCTVjilu</display-name>
+</channel>
+<channel id="11" group="yangshi">
+<display-name lang="zh">CCTV10</display-name>
+</channel>
+<channel id="13" group="yangshi">
+<display-name lang="zh">CCTV12</display-name>
+</channel>
+<channel id="14" group="yangshi">
+<display-name lang="zh">CCTV13</display-name>
+</channel>
+<channel id="15" group="yangshi">
+<display-name lang="zh">CCTVchild</display-name>
+</channel>
+<channel id="16" group="yangshi">
+<display-name lang="zh">CCTV16</display-name>
+</channel>
+<channel id="17" group="yangshi">
+<display-name lang="zh">CCTV17</display-name>
+</channel>
+<channel id="101" group="zj">
+<display-name lang="zh">浙江卫视</display-name>
+</channel>
+<channel id="102" group="zj">
+<display-name lang="zh">钱江都市</display-name>
+</channel>
+<channel id="103" group="zj">
+<display-name lang="zh">经济生活</display-name>
+</channel>
+<channel id="104" group="zj">
+<display-name lang="zh">教科影视</display-name>
+</channel>
+<channel id="107" group="zj">
+<display-name lang="zh">新闻</display-name>
+</channel>
+<channel id="106" group="zj">
+<display-name lang="zh">民生休闲</display-name>
+</channel>
+<channel id="108" group="zj">
+<display-name lang="zh">少儿频道</display-name>
+</channel>
+</tv>
