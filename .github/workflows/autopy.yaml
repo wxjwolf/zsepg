@@ -33,6 +33,6 @@ jobs:
         #git pull origin master
         #git push -u origin master
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: wxjwolf/zsepg@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
