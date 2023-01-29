@@ -27,15 +27,15 @@ jobs:
       run: |
         git config --global user.email wxjwolf@gmail.com
         git config --global user.name wxjwolf
-        git add .
+        git add zs.xml
         git commit -m "舟山电信itv"
         #git pull --rebase
-        #git pull origin master
+        #git push origin master
         #git push -u origin master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-         BRANCH: master
-         github_token: ${{ secrets.GITHUB_TOKEN }}
-         force: true
-        #github_token: ${{secrets.GITHUB_TOKEN}}
+       #  BRANCH: master
+        # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         #force: true
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
