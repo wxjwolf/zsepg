@@ -10,6 +10,8 @@ def sub_appendnode(root,ch,pid):
       title = ET.Element("title", {"lang":"zh"})
       title.text= i["title"]
       programme.append(title)
+      title = ET.Element("desc", {"lang":"zh"})
+      programme.append(title)
       root.append(programme)
 
 def get_tname(t):
@@ -42,7 +44,7 @@ def autoWork():
         if pgroup=="weishi1":
             sub_appendnode(root,tvsou.get_program(pname,pid),pid)
         elif pgroup=="yangshi":
-            sub_appendnode(root,cctv.get_program(pname,pid),pid)
+            sub_appendnode(root,cctv.get_program(pname.lower(),pid),pid)
         elif pgroup=="zj":
             sub_appendnode(root,tvzj.get_program(pid),pid)
 
