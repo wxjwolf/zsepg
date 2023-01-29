@@ -29,10 +29,13 @@ jobs:
         git config --global user.name wxjwolf
         git add .
         git commit -m "舟山电信itv"
-        git pull --rebase
+        #git pull --rebase
         #git pull origin master
         #git push -u origin master
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
+         BRANCH: master
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         force: true
+        #github_token: ${{secrets.GITHUB_TOKEN}}
