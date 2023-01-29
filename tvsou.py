@@ -1,7 +1,6 @@
 import requests
 import re
 import json
-import lxml.html
 from lxml import etree
 from datetime import datetime
 ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
@@ -48,7 +47,7 @@ def get_program(c_name,pid):
 def t_format(t1):
     dt=datetime.today().strftime("%Y%m%d")
     t2=dt + t1.replace(":","")
-    return t2.ljust(14,"0")
+    return t2.ljust(14,"0") + " +0800"
 #调用示例，频道名称为参数，返回dict,time and title
 #print(get_program("河北卫视","50"))
 
