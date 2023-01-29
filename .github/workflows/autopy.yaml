@@ -33,9 +33,9 @@ jobs:
         #git push origin master
         #git push -u origin master
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@master@v0.6.0
       with:
-         BRANCH: master
+         branch: ${{ github.head_ref }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          #force: true
-         github_token: ${{secrets.GITHUB_TOKEN}}
+         github_token: ${{ secrets.GITHUB_TOKEN }}
