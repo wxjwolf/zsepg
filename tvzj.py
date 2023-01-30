@@ -16,6 +16,7 @@ def get_program(pid):
         load_data = json.loads(content)
         if load_data.get("message")=="success":
             data = load_data.get("content").get("list")[0].get("list")
+            print("ok")
             for i in data:
                 endtime=float(i["play_time"]) + float(i["duration"]) 
                 endtime1=datetime.fromtimestamp(endtime/1000.0).strftime("%Y%m%d%H%M%S") + " +0800" 

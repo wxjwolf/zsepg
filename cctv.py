@@ -15,6 +15,7 @@ def get_program(ccname,pid):
         content = res.text
         if content.__contains__("channelName"):
             content=content.replace("setItem1(","").replace(");","")
+            print("ok")
             load_data = json.loads(content)
             data = load_data.get("data").get(ccname).get("list")#返回list
             for i in data:
