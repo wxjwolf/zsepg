@@ -16,7 +16,7 @@ def get_churl(c_name):
         for a,b in nodes.items():
             if c_name==a.strip():
                 ret=b.strip()
-                ret="https://www.tvsou.com" + ret
+                ret="https://www.tvsou.com" + ret.replace("weishi","ishot")
                 break
     return ret;
 
@@ -27,18 +27,20 @@ def get_program(c_name,pid):
         with requests.request('GET',url,headers = {'User-agent':ua}) as res:
             res.encoding='utf-8'
             content = res.text
-            html = etree.HTML(content)
-            titles = html.xpath( "//div[@class='layui-tab-item layui-show']//tr/td[1]/text()")
-            t_name = html.xpath( "//div[@class='layui-tab-item layui-show']//tr/td[2]/text()")
-            #url_list=html.xpath( "//ul[@class='c_list_main']//a/@href")
-            dt=datetime.today().strftime("%Y%m%d")
-            for a in range(len(titles)):
-                titles[a]=t_format(titles[a])
-                if a<len(titles)-1:
-                    endtime=t_format(titles[a+1])
-                else:
-                    endtime=t_format("235959")
-                ch.append({'channel':pid,'start':titles[a],'stop':endtime,'title':t_name[a]})
+            if content:
+              html = etree.HTML(content)
+              titles = html.xpath( "//div[@class='layui-tab-item layui-show']//tr/td[1]/text()")
+              t_name = html.xpath( "//div[@class='layui-tab-item layui-show']//tr/td[2]/text()")
+              #url_list=html.xpath( "//ul[@class='c_list_main']//a/@href")
+              print("ok")
+              dt=datetime.today().strftime("%Y%m%d")
+              for a in range(len(titles)):
+                  titles[a]=t_format(titles[a])
+                  if a<len(titles)-1:
+                      endtime=t_format(titles[a+1])
+                  else:
+                      endtime=t_format("235959")
+                  ch.append({'channel':pid,'start':titles[a],'stop':endtime,'title':t_name[a]})
             #nodes=dict(zip(titles,t_name))
             #for a,b in nodes.items():
             #    print(a.strip(),b.strip())
@@ -49,5 +51,5 @@ def t_format(t1):
     t2=dt + t1.replace(":","")
     return t2.ljust(14,"0") + " +0800"
 #调用示例，频道名称为参数，返回dict,time and title
-#print(get_program("河北卫视","50"))
+#print(get_program("广东卫视","33"))
 
