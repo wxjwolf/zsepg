@@ -7,7 +7,7 @@ from datetime import datetime
 ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 def get_churl(c_name):
     ret=""
-    with requests.request('GET',"http://www.epg.huan.tv/shanghai/channel_index",headers = {'User-agent':ua}) as res:
+    with requests.request('GET',"http://www.epg.huan.tv/shanghai/channel_index",headers = {'User-agent':ua},timeout=5) as res:
         res.encoding='utf-8'
         content = res.text
         html = etree.HTML(content)
@@ -26,7 +26,7 @@ def get_program(c_name,pid):
     #print(url)
     ch=[]
     if url!="":
-        with requests.request('GET',url,headers = {'User-agent':ua}) as res:
+        with requests.request('GET',url,headers = {'User-agent':ua},timeout=5) as res:
             res.encoding='utf-8'
             content = res.text
             if content:
