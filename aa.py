@@ -24,8 +24,8 @@ def get_tname(t):
         ret=ch[t]
     return ret
     
-sourxml="/root/zsepg/channel.xml"
-descxml="/root/py/zs.xml"
+sourxml="channel.xml"
+descxml="zs.xml"
 # 1、打开xml文件
 tree = ET.parse(sourxml)
 # 获xml文件的内容取根标签
