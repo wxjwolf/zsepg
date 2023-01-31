@@ -1,5 +1,5 @@
 import os
-import jike#tvsou
+import jike
 import cctv
 import tvzj
 import time
