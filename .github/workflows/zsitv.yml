@@ -28,7 +28,7 @@ jobs:
         git config --global user.email wxjwolf@gmail.com
         git config --global user.name wxjwolf
         git add zs.xml
-        git commit -m "舟山电信itv"
+        git commit -m "舟山电信itv-epg"
         #git pull --rebase
         #git push origin master
         #git push -u origin master
