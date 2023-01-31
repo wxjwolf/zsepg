@@ -1,4 +1,4 @@
-name: zstv
+name: zstv1
 on:
    push:
      branches: [ master ]
