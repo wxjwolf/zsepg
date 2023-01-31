@@ -15,6 +15,7 @@ def get_program(ccname,pid):
         content = res.text
         if content.__contains__("channelName"):
             content=content.replace("setItem1(","").replace(");","")
+            print("ok")
             load_data = json.loads(content)
             data = load_data.get("data").get(ccname).get("list")#返回list
             for i in data:
@@ -26,6 +27,6 @@ def get_program(ccname,pid):
 
 def formattime(t):
     #ret=datetime.fromtimestamp(float(t)/1000.0).strftime("%Y%m%d%H%M%S") + " +0800"  
-    return datetime.fromtimestamp(float(t)/1000.0).strftime("%Y%m%d%H%M%S") + " +0800"   
+    return datetime.fromtimestamp(float(t)).strftime("%Y%m%d%H%M%S") + " +0800"   
 #调用示例,chennelid为参数,返回dict,time and titile
 #print(get_program("cctv1","1"))
