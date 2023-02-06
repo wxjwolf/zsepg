@@ -71,15 +71,15 @@ http://192.168.2.1:4022/udp/233.50.201.114:5140
 http://192.168.2.1:4022/udp/233.50.201.145:5140
 #EXTINF:-1 tvg-id="56" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://192.168.2.1:4022/udp/233.50.201.139:5140
-#EXTINF:-1 tvg-id="102" tvg-logo="http://192.168.3.5/images/zjqjds.jpg" tvg-name="" group-title="浙江",钱江频道高清
+#EXTINF:-1 tvg-id="102" tvg-logo="http://oss.cztv.com/image/uc/user_20200120/22682936202001201527561695077536.png" tvg-name="" group-title="浙江",钱江频道高清
 http://192.168.2.1:4022/udp/233.50.201.132:5140
-#EXTINF:-1 tvg-id="103" tvg-logo="http://192.168.3.5/images/zjjjsh.png" tvg-name="" group-title="浙江",浙江经视高清
+#EXTINF:-1 tvg-id="103" tvg-logo="http://oss.cztv.com/ucc/20200123/fb0b3cff52e248e38b05be65c87869ad.png" tvg-name="" group-title="浙江",浙江经视高清
 http://192.168.2.1:4022/udp/233.50.201.133:5140
-#EXTINF:-1 tvg-id="104" tvg-logo="http://192.168.3.5/images/zjkjys.png" tvg-name="" group-title="浙江",教科影视高清
+#EXTINF:-1 tvg-id="104" tvg-logo="http://oss.cztv.com/ucc/20200123/821f9a2695c24835aac3665ef4b2e9a1.png" tvg-name="" group-title="浙江",教科影视高清
 http://192.168.2.1:4022/udp/233.50.201.134:5140
-#EXTINF:-1 tvg-id="107" tvg-logo="http://192.168.3.5/images/zjxw.png" tvg-name="" group-title="浙江",浙江新闻高清
+#EXTINF:-1 tvg-id="107" tvg-logo="http://oss.cztv.com/ucc/20201231/bc733134b4334d538d2c24ddd716415f.png" tvg-name="" group-title="浙江",浙江新闻高清
 http://192.168.2.1:4022/udp/233.50.201.137:5140
-#EXTINF:-1 tvg-id="106" tvg-logo="http://192.168.3.5/images/zjmsxx.png" tvg-name="" group-title="浙江",民生休闲高清
+#EXTINF:-1 tvg-id="106" tvg-logo="http://oss.cztv.com/ucc/20200123/dde8c15d034d45468c0fe1cd247805a3.png" tvg-name="" group-title="浙江",民生休闲高清
 http://192.168.2.1:4022/udp/233.50.201.136:5140
-#EXTINF:-1 tvg-id="108" tvg-logo="http://192.168.3.5/images/zjsepd.png" tvg-name="" group-title="浙江",浙江少儿高清
+#EXTINF:-1 tvg-id="108" tvg-logo="http://oss.cztv.com/ucc/20200123/312d8aea2f2a4f678b084d2bd8dbcb05.png" tvg-name="" group-title="浙江",浙江少儿高清
 http://192.168.2.1:4022/udp/233.50.201.138:5140
