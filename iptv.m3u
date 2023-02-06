@@ -83,9 +83,9 @@ http://192.168.2.1:4022/udp/233.50.201.137:5140
 http://192.168.2.1:4022/udp/233.50.201.136:5140
 #EXTINF:-1 tvg-id="108" tvg-logo="http://oss.cztv.com/ucc/20200123/312d8aea2f2a4f678b084d2bd8dbcb05.png" tvg-name="" group-title="浙江",浙江少儿高清
 http://192.168.2.1:4022/udp/233.50.201.138:5140
-#EXTINF:-1 tvg-id="108" tvg-logo="https://img.plus.wifizs.cn/20210901c24ad5fc035871a6c523d553abe0021b.jpg" tvg-name="" group-title="浙江",舟山新闻综合
+#EXTINF:-1 tvg-id="173" tvg-logo="https://img.plus.wifizs.cn/20210901c24ad5fc035871a6c523d553abe0021b.jpg" tvg-name="" group-title="浙江",舟山新闻综合
 https://live1.plus.wifizs.cn/xwzh/sd/live.m3u8?_upt=9a7c3ca71671008080
-#EXTINF:-1 tvg-id="108" tvg-logo="https://img.plus.wifizs.cn/20210901800513d95534e356a22adf9358bc57af.jpg" tvg-name="" group-title="浙江",舟山公共生活
+#EXTINF:-1 tvg-id="174" tvg-logo="https://img.plus.wifizs.cn/20210901800513d95534e356a22adf9358bc57af.jpg" tvg-name="" group-title="浙江",舟山公共生活
 https://live1.plus.wifizs.cn/ggsh/sd/live.m3u8?_upt=c74210731671008081
-#EXTINF:-1 tvg-id="108" tvg-logo="https://img.plus.wifizs.cn/2021090127d965608b57c5939609ee7b978b93f7.jpg" tvg-name="" group-title="浙江",舟山群岛旅游
+#EXTINF:-1 tvg-id="175" tvg-logo="https://img.plus.wifizs.cn/2021090127d965608b57c5939609ee7b978b93f7.jpg" tvg-name="" group-title="浙江",舟山群岛旅游
 https://live1.plus.wifizs.cn/qdly/sd/live.m3u8?_upt=76c2b54a1671008082
