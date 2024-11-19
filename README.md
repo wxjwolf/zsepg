@@ -1,4 +1,7 @@
 https://cdn.jsdelivr.net/gh/wxjwolf/zsepg/zs.xml
+<br>
+https://ghproxy.net/https://raw.githubusercontent.com/wxjwolf/zsepg/refs/heads/master/zs.xml
+<br>
 id和频道对应关系<br>
 <br>
 27 : 湖南卫视<br>
