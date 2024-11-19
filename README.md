@@ -1,3 +1,4 @@
+https://cdn.jsdelivr.net/gh/wxjwolf/zsepg/zs.xml
 id和频道对应关系<br>
 <br>
 27 : 湖南卫视<br>
