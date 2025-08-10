@@ -7,6 +7,7 @@ https://ghproxy.net/https://raw.githubusercontent.com/wxjwolf/zsepg/refs/heads/m
 https://ghproxy.net/https://raw.githubusercontent.com/wxjwolf/zsepg/refs/heads/master/xc_cookie.txt
 <br>
 <br>
+"pages:build": "pnpm gen:runtime && pnpm gen:manifest && next build && npx @cloudflare/next-on-pages --experimental-minify"
 <br>
 id和频道对应关系<br>
 <br>
