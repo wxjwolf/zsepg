@@ -2,6 +2,10 @@ https://purge.jsdelivr.net/gh/wxjwolf/zsepg/zs.xml（清除缓存）
 <br>
 https://cdn.jsdelivr.net/gh/wxjwolf/zsepg/zs.xml
 <br>
+https://cdn.jsdelivr.net/gh/wxjwolf/zsepg/txiptv.m3u
+<br>
+https://purge.jsdelivr.net/gh/wxjwolf/zsepg/txiptv.m3u
+<br>
 https://ghproxy.net/https://raw.githubusercontent.com/wxjwolf/zsepg/refs/heads/master/zs.xml
 <br>
 https://ghproxy.net/https://raw.githubusercontent.com/wxjwolf/zsepg/refs/heads/master/xl.json
